@@ -6,7 +6,7 @@ import Sidebar from '../components/sidebar';
 import { ThemeContext } from '../contexts/themeContext';
 
 import Navbar from '../components/navbar';
-import Flow from './Flow';
+import Flow from './flow';''
 
 
 function Main() {
