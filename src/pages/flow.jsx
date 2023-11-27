@@ -31,7 +31,7 @@ const Flow = () => {
                 "y": 166
             },
             "data": {
-                "label": "Screen0"
+                "label": "Root"
             },
             "positionAbsolute": {
                 "x": 378,
@@ -39,7 +39,7 @@ const Flow = () => {
             }
         },
         {
-            "width": 154,
+            "width": 134,
             "height": 304,
             "id": "Screen1",
             "type": "stack",
@@ -48,134 +48,11 @@ const Flow = () => {
                 "y": 690
             },
             "data": {
-                "label": "Screen1"
+                "label": "Home"
             },
             "positionAbsolute": {
                 "x": 398,
                 "y": 690
-            },
-            "selected": false,
-            "dragging": false
-        },
-        {
-            "width": 154,
-            "height": 304,
-            "id": "Screen2",
-            "type": "stack",
-            "position": {
-                "x": 435,
-                "y": 1075
-            },
-            "data": {
-                "label": "Screen2"
-            },
-            "positionAbsolute": {
-                "x": 435,
-                "y": 1075
-            }
-        },
-        {
-            "width": 154,
-            "height": 304,
-            "id": "Screen3",
-            "type": "stack",
-            "position": {
-                "x": 460,
-                "y": 1478
-            },
-            "data": {
-                "label": "Screen3"
-            },
-            "positionAbsolute": {
-                "x": 460,
-                "y": 1478
-            }
-        },
-        {
-            "width": 154,
-            "height": 304,
-            "id": "Screen4",
-            "type": "stack",
-            "position": {
-                "x": 480,
-                "y": 1931
-            },
-            "data": {
-                "label": "Screen4"
-            },
-            "positionAbsolute": {
-                "x": 480,
-                "y": 1931
-            }
-        },
-        {
-            "width": 154,
-            "height": 304,
-            "id": "Screen5",
-            "type": "stack",
-            "position": {
-                "x": 441,
-                "y": 2318
-            },
-            "data": {
-                "label": "Screen5"
-            },
-            "positionAbsolute": {
-                "x": 441,
-                "y": 2318
-            }
-        },
-        {
-            "width": 154,
-            "height": 304,
-            "id": "Screen6",
-            "type": "stack",
-            "position": {
-                "x": 508,
-                "y": 2744
-            },
-            "data": {
-                "label": "Screen6"
-            },
-            "positionAbsolute": {
-                "x": 508,
-                "y": 2744
-            },
-            "selected": false,
-            "dragging": false
-        },
-        {
-            "width": 154,
-            "height": 304,
-            "id": "Screen7",
-            "type": "stack",
-            "position": {
-                "x": 548,
-                "y": 3229
-            },
-            "data": {
-                "label": "Screen7"
-            },
-            "positionAbsolute": {
-                "x": 548,
-                "y": 3229
-            }
-        },
-        {
-            "width": 154,
-            "height": 304,
-            "id": "Screen8",
-            "type": "stack",
-            "position": {
-                "x": 581,
-                "y": 3739
-            },
-            "data": {
-                "label": "Screen8"
-            },
-            "positionAbsolute": {
-                "x": 581,
-                "y": 3739
             }
         }
     ]);
@@ -186,55 +63,6 @@ const Flow = () => {
             "target": "Screen1",
             "targetHandle": "a",
             "id": "reactflow__edge-Screen0b-Screen1a"
-        },
-        {
-            "source": "Screen1",
-            "sourceHandle": "b",
-            "target": "Screen2",
-            "targetHandle": "a",
-            "id": "reactflow__edge-Screen1b-Screen2a"
-        },
-        {
-            "source": "Screen2",
-            "sourceHandle": "b",
-            "target": "Screen3",
-            "targetHandle": "a",
-            "id": "reactflow__edge-Screen2b-Screen3a"
-        },
-        {
-            "source": "Screen3",
-            "sourceHandle": "b",
-            "target": "Screen4",
-            "targetHandle": "a",
-            "id": "reactflow__edge-Screen3b-Screen4a"
-        },
-        {
-            "source": "Screen4",
-            "sourceHandle": "b",
-            "target": "Screen5",
-            "targetHandle": "a",
-            "id": "reactflow__edge-Screen4b-Screen5a"
-        },
-        {
-            "source": "Screen5",
-            "sourceHandle": "b",
-            "target": "Screen6",
-            "targetHandle": "a",
-            "id": "reactflow__edge-Screen5b-Screen6a"
-        },
-        {
-            "source": "Screen6",
-            "sourceHandle": "b",
-            "target": "Screen7",
-            "targetHandle": "a",
-            "id": "reactflow__edge-Screen6b-Screen7a"
-        },
-        {
-            "source": "Screen7",
-            "sourceHandle": "b",
-            "target": "Screen8",
-            "targetHandle": "a",
-            "id": "reactflow__edge-Screen7b-Screen8a"
         }
     ]);
     const [reactFlowInstance, setReactFlowInstance] = useState(null);
