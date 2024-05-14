@@ -3,6 +3,6 @@ A powerful tool for visualizing and managing navigation flows in React Native ap
 
 ### Features
 - [x] React Navigation support
-- [x] Expo Router support
+- [ ] Expo Router support
 - [ ] Detailed screen editing
 - [ ] Custom navigator group
